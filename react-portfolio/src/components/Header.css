@@ -1,0 +1,16 @@
+/* src/components/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Makes navigation items appear on the right */
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .header-title {
+    margin: 0;
+    padding: 0;
+    font-size: 24px; /* Adjust as needed */
+    text-align: left; /* Ensure it's aligned to the left */
+  }
+  

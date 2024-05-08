@@ -1,12 +1,12 @@
 // src/components/Header.jsx
-import React from 'react';
 import Navigation from './Navigation';
+import './Header.css'; // Make sure this CSS file exists
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <div className="header-content">
-        <h1>Dennis Angelov</h1> 
+        <h1 className="header-title">Dennis Angelov</h1> 
         <Navigation />
       </div>
     </header>
