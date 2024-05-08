@@ -1,0 +1,25 @@
+/* src/components/Navigation.css */
+nav {
+    display: flex;
+    justify-content: center; /* Aligns links to center, adjust as needed */
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0; /* Light background color for the nav bar */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Darker text color for better readability */
+    font-size: 16px; /* Sets a specific font size for navigation links */
+    margin: 10px 15px; /* Space between the links */
+    padding: 10px 20px; /* Padding for clickable area */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+nav a:hover, nav a:focus {
+    background-color: #646cff; /* Change color on hover/focus */
+    color: white; /* Change text color on hover/focus */
+    text-decoration: none; /* Ensures no underline appears */
+}

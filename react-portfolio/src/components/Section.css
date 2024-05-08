@@ -1,0 +1,17 @@
+/* src/components/Section.css */
+section {
+    margin: 20px auto; /* Centers the section and adds margin around it */
+    padding: 20px;
+    max-width: 1200px; /* Sets a max-width for the section content */
+    background-color: #fff; /* Sets a white background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+section h2 {
+    color: #333; /* Dark gray for the title */
+    font-size: 24px; /* Sets a specific font size for section titles */
+    padding-bottom: 10px; /* Space below the title */
+    border-bottom: 1px solid #eaeaea; /* A light line under the title for separation */
+    margin-bottom: 20px; /* Space between title and content */
+}

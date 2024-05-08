@@ -1,0 +1,46 @@
+/* src/components/Footer.css */
+footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f4f4f4; /* Light gray background, adjust as needed */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Optional: adds shadow for a slight lifting effect */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Space above the social links */
+}
+
+.social-links li {
+    margin: 0 10px; /* Horizontal spacing between links */
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333; /* Dark grey color for the text links */
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 0; /* Removes default margin from p tags */
+    font-size: 14px;
+}

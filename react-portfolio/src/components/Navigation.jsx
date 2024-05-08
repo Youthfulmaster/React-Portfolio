@@ -1,5 +1,5 @@
 // components/Navigation.jsx
-
+import './Navigation.css';
 
 const Navigation = () => {
   return (

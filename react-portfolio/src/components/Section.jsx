@@ -1,5 +1,5 @@
 // components/Section.jsx
-
+import './Section.css';
 import PropTypes from 'prop-types';
 
 const Section = ({ id, title, children }) => {
