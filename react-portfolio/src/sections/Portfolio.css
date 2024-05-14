@@ -1,0 +1,33 @@
+/* src/sections/Portfolio.css */
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .portfolio-item {
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .portfolio-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .portfolio-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .portfolio-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  

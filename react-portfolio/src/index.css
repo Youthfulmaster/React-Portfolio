@@ -78,3 +78,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.portfolio-image {
+  width: 400%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
