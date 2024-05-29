@@ -1,7 +1,9 @@
 // src/sections/Portfolio.jsx
-import project1 from "../assets/project1.png"
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
 import Section from '../components/Section';
-import './Portfolio.css';  //Ensure you create a Portfolio.css for styling
+import './Portfolio.css';  // Ensure you create a Portfolio.css for styling
 
 const projects = [
   {
@@ -9,18 +11,18 @@ const projects = [
     title: 'Weather-Dashboard',
     imageUrl: project1,
     githubUrl: 'https://github.com/Youthfulmaster/Weather-Dashboard?tab=readme-ov-file',
-    className: 'large-image', // Add this line
   },
   {
     id: 2,
-    title: 'Project Two',
-    imageUrl: '/assets/project2.png',
-    githubUrl: 'https://github.com/YourUsername/project2',
+    title: 'Coding quiz',
+    imageUrl: project2,
+    githubUrl: 'https://github.com/Youthfulmaster/codingQuiz',
+    className: 'large-item', // Ensure this class is applied
   },
   {
     id: 3,
     title: 'Project Three',
-    imageUrl: '/assets/project3.png',
+    imageUrl: project3,
     githubUrl: 'https://github.com/YourUsername/project3',
   },
 ];
